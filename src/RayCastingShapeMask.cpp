@@ -265,7 +265,10 @@ void RayCastingShapeMask::maskContainmentAndShadows(const Eigen::Vector3f& data,
 
   this->classifyPointNoLock(data.cast<double>(), mask, sensorPos);
 }
-
+// 点云过滤核心
+// data：待分类的点的坐标，类型为Eigen::Vector3d
+// mask：用于存储分类结果的变量，类型为RayCastingShapeMask::MaskValue
+// sensorPos：传感器的位置，即射线的起点坐标
 void RayCastingShapeMask::classifyPointNoLock(const Eigen::Vector3d& data,
     RayCastingShapeMask::MaskValue &mask, const Eigen::Vector3d& sensorPos)
 {

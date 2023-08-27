@@ -1,0 +1,55 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zm/RobotVector/tr/multicamera/realsense_ros/devel/include/**",
+        "/home/zm/RobotVector/tr/self_filter/devel/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/devel/include/**",
+        "/home/zm/ws_moveit/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zm/RobotVector/tr/multicamera/rtabmap_ros/devel/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_ros/franka_control/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_ros/franka_example_controllers/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_ros/franka_gazebo/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_ros/franka_gripper/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_ros/franka_hw/include/**",
+        "/home/zm/MotionPolicyNetworks/franka_motion_control/src/franka_motion_control/include/**",
+        "/home/zm/ws_moveit/src/geometric_shapes/include/**",
+        "/home/zm/ws_moveit/src/moveit_grasps/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/zm/ws_moveit/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/zm/ws_moveit/src/moveit_task_constructor/core/include/**",
+        "/home/zm/ws_moveit/src/moveit_task_constructor/demo/include/**",
+        "/home/zm/ws_moveit/src/moveit_visual_tools/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/zm/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/zm/RobotVector/tr/multicamera/realsense_ros/src/realsense-ros/realsense2_camera/include/**",
+        "/home/zm/RobotVector/tr/self_filter/src/robot_body_filter/include/**",
+        "/home/zm/RobotVector/tr/multicamera/rtabmap_ros/src/rtabmap_ros/include/**",
+        "/home/zm/ws_moveit/src/moveit_task_constructor/rviz_marker_tools/include/**",
+        "/home/zm/ws_moveit/src/rviz_visual_tools/include/**",
+        "/home/zm/ws_moveit/src/srdfdom/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
