@@ -45,7 +45,7 @@ cloud_filter_chain:
         - panda_link4
         - panda_link5
         - panda_link6
-        - panda_link7
+        - panda_link7 
         - panda_hand
         - panda_rightfinger
         - panda_leftfinger
