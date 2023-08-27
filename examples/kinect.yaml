@@ -23,8 +23,8 @@ cloud_filter_chain:
       frames/output: rgb_camera_link
       frames/sensor: rgb_camera_link
 
-      body_model/inflation/scale: 1.07
-      body_model/inflation/padding: 0.08
+      body_model/inflation/scale: 1.0
+      body_model/inflation/padding: 0.02
       body_model/robot_description_param: 'robot_description'
       transforms/buffer_length: 15.0
       transforms/timeout/reachable: 0.2
@@ -47,8 +47,12 @@ cloud_filter_chain:
         - panda_link6
         - panda_link7
         - panda_hand
-        # - panda_rightfinger
-        # - panda_leftfinger
-  
-
-  
+        - panda_leftfinger
+        - panda_rightfinger
+      body_model/inflation/per_link/padding:
+        "panda_leftfinger": 0.10
+        "panda_rightfinger": 0.10
+        "panda_link5" : 0.07
+        "panda_hand" : 0.08
+      # body_model/inflation/per_link/scale:
+      #   "panda_hand": 1.08
